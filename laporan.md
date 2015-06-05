@@ -8,4 +8,7 @@ Juni 04, 2015   1       Rizky Noprawiza     Mempelajari Bespoke
 Juni 04, 2015   1       Ridho Viardhi	    Membuat UI sederhana Program
 
 
-
+Juni 05, 2015	1	Kardiko Simbolon    Mempersiapkan slide persentase
+Juni 05, 2015   1	Fajar Satria	    Membuat UI sederhana Program
+Juni 05, 2015	1	Rizky Noprawiza	    Mempersiapkan Slide persentase
+Juni 05, 2015	1	Ridho Viardhi	    Membuat UI sederhana Program

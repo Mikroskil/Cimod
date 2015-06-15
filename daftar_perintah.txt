@@ -1,0 +1,13 @@
+git pull
+#untuk mengupdate data local
+
+#edit data yang dibutuhkan
+
+git add .
+
+git commit -m " "
+
+git push
+
+git pull
+# untuk validasi

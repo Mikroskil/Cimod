@@ -12,59 +12,79 @@ html
     article
 
       section
-        h1 Cimod Word
+        h1 Tugas Besar
+        h2 TKPPL
+        h3 Kardiko Simbolon (131112233)
+        h3 Fajar Satria Akbar (131113174)
+        h3 Rizky Noprawiza (131112357)
+        h3 Ridho Viardhi (13111111)
+        
 
       section
-        h2 Keyboard Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-keys">bespoke-keys</a>
+        h2 Cara Membuat Kalkulator Sederhana
+        h3 Dengan Menggunakan C#
+        img(src="https://pbs.twimg.com/profile_images/456379770700181506/2fnlPhty.jpeg" width="200" height="200")
+        h3 Presented By :
+        h2 CIMOD
+        //h3 Powered by <a href="https://github.com/markdalgleish/bespoke-keys">bespoke-keys</a>
 
       section
-        h2 Touch Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-touch">bespoke-touch</a>
-
-      section
-        h2 Responsive Slides
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a>
-
-      section
-        h2 Bullet List
-        h3.bullet Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a>
+        h2 Langkah I
+        h3.bullet
         ul
-          li Bullet 1
-          li Bullet 2
-          li Bullet 3
+          li Buat sebuah project baru pilih File > New > Project.
+          li Pilih Template > Visual C# > Windows Form Application.
+          li Beri nama, tentukan lokasi dan klik OK.
+        
 
       section
-        h2 Syntax Highlighting
-        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
+        h2 Langkah 2
+        h3 Desain Form seperti pada gambar berikut ini :
+        img(src="http://i.imgur.com/M7Ab7ui.png" width="300" height="300")
+        
+      section
+        h2 Langkah 3
+        h4 Klik ganda pada Button(+) lalu akan muncul jendela baru untuk menginputkan code pada Button (+) tadi.
         pre
           code.language-javascript.
-            bespoke.from('article', [
-              classes(),
-              keys(),
-              touch(),
-              bullets('li, .bullet')
-            ]);
+            private void button3_Click(object sender, EventArgs e)
+                {
+                    float a, b, c;
+                    a = float.Parse(this.textBox1.Text);
+                    b = float.Parse(this.textBox2.Text);
+                    c = a + b;
+                    this.textBox3.Text = Convert.ToString(c);
+                }
 
-      section(data-bespoke-hash='named-route')
-        h2 Named Route
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
+      section(data-bespoke-hash='6')
+        h2 Langkah 4
+        p Lakukan hal yang sama pada Button lainnya (- , x , /).
+        p Namun ganti operator antara nilai a dan b sesuai dengan Button yang di edit.
+        h3.bullet
+        ul
+          li Untuk pengurangan menjadi c = a - b;
+          li Untuk perkalian menjadi c = a * b;
+          li Untuk pembagian menjadi c = a / b;
+        //p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
 
       section.emphatic-text(data-bespoke-backdrop='emphatic')
-        h2 Emphatic Slide!
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
+        h2 Langkah 5
+        h3 RUN program dengan menekan F5.
+        h3 Coba lakukan operasi dengan menginputkan angka pada nilai pertama dan kedua dan pilih operator yang digunakan.
+        img(src="http://i.imgur.com/hvCqx6X.png" width="300" height="300")
 
       section
-        h2.bullet Just the beginning...
-        br
-        ul
-          li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
-          li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
-        br
-        ul
-          li
-            strong Enjoy! :)
-            a(href='http://twitter.com/markdalgleish')  -@markdalgleish
-
+        h2 Terimakasih...
+        h2 ;)
+        
+        
+        //ul
+        //  li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
+        //  li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
+        // br
+        // ul
+        //  li
+        //    strong Enjoy! :)
+        //    a(href='http://twitter.com/markdalgleish')  -@markdalgleish
+        
     script(src='build/build.js')
